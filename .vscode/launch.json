@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "name": "Run app (debug mode)",
+      "type": "dart",
+      "request": "launch",
+      "program": "app/lib/main.dart",
+      "flutterMode": "debug",
+      "args": [
+        "--web-port=8008"
+      ]
+    },
+    {
+      "name": "Run app (profile mode)",
+      "type": "dart",
+      "request": "launch",
+      "program": "app/lib/main.dart",
+      "flutterMode": "profile",
+      "args": [
+        "--web-port=8008"
+      ]
+    },
+    {
+      "name": "Run app (release mode)",
+      "type": "dart",
+      "request": "launch",
+      "program": "app/lib/main.dart",
+      "flutterMode": "release",
+      "args": [
+        "--web-port=8008"
+      ]
+    }
+  ]
+}

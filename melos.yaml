@@ -1,0 +1,6 @@
+name: scrum_poker
+
+packages:
+  - api
+  - app
+  - packages/*

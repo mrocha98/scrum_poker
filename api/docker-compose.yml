@@ -1,0 +1,11 @@
+services:
+  api:
+    container_name: scrum_poker_api
+    build:
+      context: .
+    ports:
+      - "8080:8080"
+    logging:
+      options:
+        max-size: "8m"
+        max-file: "4"

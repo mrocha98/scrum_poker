@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: scrum_poker_analysis
+dependency_overrides:
+  scrum_poker_analysis:
+    path: ../packages/analysis
